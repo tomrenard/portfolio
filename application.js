@@ -3,5 +3,5 @@ function hover(element) {
 }
 
 function unhover(element) {
-  element.setAttribute('src', 'images/per1.svg)';
+  element.setAttribute('src', 'images/per1.svg');
 }
