@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset = 'utf-8'>
+  <link href = "styles.css" rel = "stylesheet" type = "text/css">
+  <div class="container">
+    <div class="left">
+      <h1> LEFT </h1>
+      <a href="left.html" class="button">Click Here!</a>
+    </div>
+    <div class="right">
+      <h1> RIGHT </h1>
+      <a href="right.html" class="button">Click More! </a>
+    </div>
+  </div>
+</head>
+
+<script>
+const left = document.querySelector(".left");
+const right = document.querySelector(".right");
+const container = document.querySelector(".container");
+left.addEventListener("mouseenter", () => {
+  container.classList.add("hover-left");
+});
+left.addEventListener("mouseleave", () => {
+  container.classList.remove("hover-left");
+});
+right.addEventListener("mouseenter", () => {
+  container.classList.add("hover-right");
+});
+right.addEventListener("mouseleave", () => {
+  container.classList.remove("hover-right");
+});
+</script>
