@@ -6,46 +6,14 @@ body {
 h1 {
   font-family: 'Roboto Slab', serif;
   color: #292429;
-  font-size: 3.4em;
+  font-size: 4vw;
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   color: #292429;
-  font-size: 1.7em;
-}
-
-.topnav {
-  background-color: #FFF8F0;
-  overflow: hidden;
-}
-
-.topnav .active {
-  font-size: 80px;
-  color: #2A0C4E;
-  float: left;
-  text-decoration: none;
-}
-
-.topnav .social {
-  float: right;
-  text-decoration: none;
-  font-size: 26px;
-  color: #2A0C4E;
-  padding: 25px 10px 0px 10px;
-}
-
-.topnav .social:hover {
-  color: #51355A;
-}
-
-.topnav .active:hover {
-  color: #51355A;
-}
-
-.contact-i {
-  padding: 0px 65px 0px 0px;
+  font-size: 2vw;
 }
 
 .headline {
@@ -66,6 +34,7 @@ h2 {
 .person {
   width: 280px;
   height: auto;
+  max-width: 100%;
 }
 
 .person:hover {
@@ -73,8 +42,9 @@ h2 {
 }
 
 .container {
-  display: flex;
+  display: grid;
   flex-direction: row;
+  grid-template-columns: 3fr 1fr;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
