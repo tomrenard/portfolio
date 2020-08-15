@@ -1,1 +1,33 @@
-container.css
+.headline {
+  padding: 0px 5px 100px 0px;
+}
+
+.headline h1:hover {
+  transform: scale(1.01);
+}
+
+.headline h2:hover {
+}
+
+.headline h2 {
+  padding: 15px 0px 20px 0px;
+}
+
+.person {
+  width: 280px;
+  height: auto;
+  max-width: 100%;
+}
+
+.person:hover {
+ transform: scale(1.03);
+}
+
+.container {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 3fr 1fr;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

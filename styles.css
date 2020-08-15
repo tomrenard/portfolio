@@ -1,3 +1,9 @@
+@import "css/components/container.css";
+@import "css/components/footer.css";
+@import "css/components/navbar.css";
+@import "css/components/button.css";
+
+
 body {
   background-color: #FFF8F0;
   margin: 40px 170px 10px 170px;
@@ -14,86 +20,4 @@ h2 {
   font-weight: 200;
   color: #292429;
   font-size: 2vw;
-}
-
-.headline {
-  padding: 0px 5px 100px 0px;
-}
-
-.headline h1:hover {
-  transform: scale(1.1);
-}
-
-.headline h2:hover {
-}
-
-.headline h2 {
-  padding: 0px 0px 20px 0px;
-}
-
-.person {
-  width: 280px;
-  height: auto;
-  max-width: 100%;
-}
-
-.person:hover {
- transform: scale(1.03);
-}
-
-.container {
-  display: grid;
-  flex-direction: row;
-  grid-template-columns: 3fr 1fr;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  background: #FFF8F0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
-}
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-.footer-links a {
-  color: #2A0C4E;
-  opacity: 0.3;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-.footer-links a:hover {
-  color: #51355A;
-  opacity: 0.9;
-}
-.footer .fa-heart {
-  color: #D23333;
-}
-
-.button-container {
-  padding: 0px 0px 0px 140px;
-}
-.btn-ghost {
-  color: #FFF8F0;
-  padding: 8px 24px;
-  border-radius: 4px;
-  background: #2A0C4E;
-  transition: background 0.3s ease;
-  font-family: 'Roboto Slab', serif;
-  text-decoration: none;
-  font-weight: lighter;
-}
-
-.btn-ghost:hover {
-  background: #51355A;
-  color: #FFF8F0;
-  font-weight: bold;
 }

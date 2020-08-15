@@ -1,1 +1,13 @@
-navbar.css
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #FFF8F0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand {
+  font-size: 65px;
+}
