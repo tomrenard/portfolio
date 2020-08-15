@@ -1,7 +1,7 @@
 function hover(element) {
-  element.setAttribute('src', 'images/pe2.SVG');
+  element.setAttribute('src', '/images/pe2.svg');
 }
 
 function unhover(element) {
-  element.setAttribute('src', 'images/per1.SVG');
+  element.setAttribute('src', '/images/per1.svg');
 }
