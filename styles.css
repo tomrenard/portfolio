@@ -4,10 +4,19 @@
 @import "css/components/buttons.css";
 @import "css/components/cards.css";
 
-
 body {
   background-color: #FFF8F0;
   margin: 40px 170px 10px 170px;
   text-decoration: none;
   color: inherit;
+}
+
+.projects h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #2A0C4E;
+  padding: 10px 0px 20px 10px;
+}
+
+.projects h2:hover {
+  font-weight: bold;
 }

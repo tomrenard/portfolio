@@ -25,35 +25,58 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link disabled" tabindex="-1" aria-disabled="true" href="#">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Skills</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="social">
+        <a href="https://github.com/tomrenard"> <i class="fab fa-github-square social"></i> </a>
+      </li>
+      <li class="social">
+        <a href="mailto:renard.tom@icloud.com"> <i class="fas fa-envelope-square social"></i> </a>
+      </li>
+      <li class="social">
+        <a href="https://www.linkedin.com/in/tom-renard-9401547a/"> <i class="fab fa-linkedin-in"></i> </a>
       </li>
   </div>
 </nav>
 
 <div class="banner" style="background-color: #FFF8F0;">
   <div class="container">
-    <h1>I'm Tom Renard, <strong>a junior full stack developper</strong> and <strong>UX content writer</strong>.</h1>
-    <br>
-    <p>I help brands to develop their online presence to the next step.</p>
-    <a class="btn btn-flat" href="#">Let's chat</a>
+    <div class=row>
+      <div class="headline col-sm-8">
+      <h1>I'm Tom Renard, <br><strong>a junior full stack developper</strong> <br>and <strong>UX content writer</strong>.</h1>
+      <br>
+      <p>I help brands to develop their online presence to the next step.</p>
+      <a class="btn btn-flat" href="mailto:renard.tom@icloud.com">Let's chat</a>
+      </div>
+      <div class="persona col-sm-4">
+      <img src="images/perso1.svg" alt="" onmouseover="hover(this);" onmouseout="unhover(this);">
+      </div>
+    </div>
   </div>
 </div>
 
+<hr>
+
+<div class=projects>
+  <h2>Last projects</h2>
+</div>
 
 <div class="cards">
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/random)">
-    Mr Cocktail
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/coktail.jpg)">
+    <a href="">Mr Cocktail</a>
   </div>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/random)">
-    Studio Live
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/studio.jpg)">
+    <a href="">Studio Live</a>
   </div>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/random)">
-    Q-Less
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/club.jpg)">
+    <a href="">Q-Less</a>
   </div>
 </div>
 
@@ -64,7 +87,7 @@
   <a class="fas fa-envelope-square social" href="mailto:renard.tom@icloud.com" target="_blank"></a>
   </div>
   <div class="footer-copyright">
-   <i class="fas fa-heart"></i>
+   Website built with <i class="fas fa-heart"></i> by TR
   </div>
 </div>
 </body>

@@ -1,21 +1,38 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 0px 0px 20px 0px;
 }
 
 .banner h1 {
   margin: 0;
-  color: black;
+  color: #2A0C4E;
   font-family: 'Roboto Slab', serif;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2)
+}
+
+.banner h1:hover {
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Roboto', sans-serif;
-  color: black;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color: #51355A;
+  opacity: .9;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.banner p:hover {
+  font-weight: bold;
+}
+.banner .persona img {
+  width: 180px;
+  padding: 0px 0px 5px 25px;
+}
+
+.banner .headline {
+  padding: 50px 0px 0px 0px;
 }

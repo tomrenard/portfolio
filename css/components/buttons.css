@@ -19,14 +19,16 @@
 }
 
 .btn-flat {
-  color: white;
+  color: #FFF8F0;
   padding: 8px 24px;
+  font-family: 'Roboto Slab', serif;
   border-radius: 4px;
-  background: #1EDD88;
+  background: #51355A;
   transition: background 0.3s ease;
 }
 
-.btn-flat:hover {
-  background: #1BCB7F;
-  color: white;
+.banner .btn-flat:hover {
+  background: #2A0C4E;
+  color: #FFF8F0;
+  font-weight: bold;
 }
