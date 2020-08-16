@@ -1,9 +1,9 @@
 function hover(element) {
-  element.setAttribute('src', 'images/pe2.svg');
+  element.setAttribute('src', 'images/perso2.svg');
 }
 
 function unhover(element) {
-  element.setAttribute('src', 'images/per1.svg');
+  element.setAttribute('src', 'images/perso1.svg');
 }
 
 function play() {

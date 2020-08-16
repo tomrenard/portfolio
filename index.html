@@ -13,42 +13,49 @@
 </head>
 <body>
 
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <a class="navbar-brand fab fa-stumbleupon active" href="#"></a>
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand fab fa-stumbleupon" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon "></span>
+    <span class="navbar-toggler-icon"></span>
   </button>
-
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Skills</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Skills</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact me</a>
-      </li>
-    </ul>
+  </div>
+</nav>
+
+<div class="banner" style="background-color: #FFF8F0;">
+  <div class="container">
+    <h1>I'm Tom Renard, <strong>a junior full stack developper</strong> and <strong>UX content writer</strong>.</h1>
+    <br>
+    <p>I help brands to develop their online presence to the next step.</p>
+    <a class="btn btn-flat" href="#">Let's chat</a>
   </div>
 </div>
 
-<div class=container>
-  <div class=headline>
-  <h1>I’m Tom Renard,<br> a junior <span class=strong>full-stack developer</span>,<br> and <span class=strong>UX content</span> writer.</h1>
-  <h2>I create <strong>modern websites</strong> and <strong>innovative content</strong>.</h2>
-  <div class=button-container>
-  <a class="btn btn-ghost button" href="" target="_blank">Take a look at my previous projects</a>
+
+<div class="cards">
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/random)">
+    Mr Cocktail
   </div>
+
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/random)">
+    Studio Live
   </div>
-  <div>
-    <img class=person src="images/per1.svg" alt="" onmouseover="hover(this);" onmouseout="unhover(this);">
+
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/random)">
+    Q-Less
   </div>
 </div>
-
-<hr>
 
 <div class="footer">
   <div class="footer-links">

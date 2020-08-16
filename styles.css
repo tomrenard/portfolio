@@ -1,23 +1,13 @@
-@import "css/components/container.css";
+@import "css/components/banner.css";
 @import "css/components/footer.css";
 @import "css/components/navbar.css";
-@import "css/components/button.css";
+@import "css/components/buttons.css";
+@import "css/components/cards.css";
 
 
 body {
   background-color: #FFF8F0;
   margin: 40px 170px 10px 170px;
-}
-
-h1 {
-  font-family: 'Roboto Slab', serif;
-  color: #292429;
-  font-size: 4vw;
-}
-
-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  color: #292429;
-  font-size: 2vw;
+  text-decoration: none;
+  color: inherit;
 }
