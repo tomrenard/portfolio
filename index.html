@@ -1,94 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Tom Renard</title>
+<title>Tom Renard - Freelance Developer</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="styles.css" />
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ --><link rel="stylesheet" type="text/css" href="styles.css" />
 <script src="application.js" type="text/javascript"></script>
 <link rel="icon" type="image/png" href="images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+ --><meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand fab fa-stumbleupon" href="#"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" tabindex="-1" aria-disabled="true" href="#">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Skills</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav ml-auto">
-      <li class="social">
-        <a href="https://github.com/tomrenard"> <i class="fab fa-github-square social"></i> </a>
-      </li>
-      <li class="social">
-        <a href="mailto:renard.tom@icloud.com"> <i class="fas fa-envelope-square social"></i> </a>
-      </li>
-      <li class="social">
-        <a href="https://www.linkedin.com/in/tom-renard-9401547a/"> <i class="fab fa-linkedin-in"></i> </a>
-      </li>
-  </div>
-</nav>
-
-<div class="banner" style="background-color: #FFF8F0;">
-  <div class="container">
-    <div class=row>
-      <div class="headline col-sm-8">
-      <h1>I'm Tom Renard, <br><strong>a junior full stack developer</strong> <br>and <strong>UX content writer</strong>.</h1>
-      <br>
-      <p>I help brands to develop their online presence to the next step.</p>
-      <a class="btn btn-flat" href="mailto:renard.tom@icloud.com">Let's chat</a>
-      </div>
-      <div class="persona col-sm-4">
-      <img src="images/perso1.svg" alt="" onmouseover="hover(this);" onmouseout="unhover(this);">
-      </div>
-    </div>
-  </div>
+<div class="header">
+  <h1>T.RENARD</h1>
 </div>
 
-<hr>
-
-<div class=projects>
-  <h2>Last projects</h2>
+<div class="about">
+  <div class="para">
+  <p>I AM TOM RENARD, A BERLIN BASED <strong>FULL-STACK WEB DEVELOPER</strong> and <strong>UX CONTENT WRITER</strong> WITH AN END-USER MARKETING PERSPECTIVE. AVAILABLE FOR FREELANCE</p>
+  </div>
+ <span>CONTACT</span>
 </div>
 
-<div class="cards">
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/coktail.jpg)">
-    <a href="">Mr Cocktail</a>
-  </div>
+<div class="projects">
+  <ul class= projects-li>
+    <li>STUDIO-LIVE</li>
+    <li>Q-LESS</li>
+    <li>MR COCKTAIL</li>
+  </ul>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/studio.jpg)">
-    <a href="">Studio Live</a>
-  </div>
-
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/club.jpg)">
-    <a href="">Q-Less</a>
-  </div>
-</div>
-
-<div class="footer">
-  <div class="footer-links">
-  <a class="fab fa-linkedin social" href="https://www.linkedin.com/in/tom-renard-9401547a/" target="_blank"></a>
-  <a class="fab fa-github-square social" href="https://github.com/tomrenard" target="_blank"></a>
-  <a class="fas fa-envelope-square social" href="mailto:renard.tom@icloud.com" target="_blank"></a>
-  </div>
-  <div class="footer-copyright">
-   Website built with <i class="fas fa-heart"></i> by TR
-  </div>
 </div>
 </body>
 </html>
+
+
+
+
+
+
+<!--  <div class="social">
+  <ul>
+    <li><a href="mailto:hello@tomrenard@xyz" target="_blank">EMAIL</a></li>
+    <li><a href="https://www.linkedin.com/in/tom-renard-9401547a/" target="_blank">LINKEDIN</a></li>
+    <li><a href="https://github.com/tomrenard" target="_blank">GITHUB</a></li>
+  </ul>
+  </div> -->

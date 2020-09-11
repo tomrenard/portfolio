@@ -1,0 +1,55 @@
+.header {
+  padding: 0px 0px;
+}
+
+.header h1 {
+  font-size: 19vw;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 100;
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.para p {
+  font-size: 4vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.about span {
+  font-size: 4vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.social  ul {
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
+ }
+
+ .social {
+  display: flex;
+ }
+
+ .social a {
+   text-decoration: none;
+   color: black;
+ }
+
+ .about {
+  margin-right: 150px;
+ }

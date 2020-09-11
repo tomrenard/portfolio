@@ -1,0 +1,6 @@
+.projects ul {
+  list-style-type: none;
+  text-align: right;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 6vw;
+}
