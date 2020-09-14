@@ -1,9 +1,16 @@
 @import "css/components/header.css";
 @import "css/components/projects.css";
-@import "css/components/banner.css";
+@import "css/components/social.css";
+@import "css/components/skills.css";
+@import "css/components/contact.css";
+@import "css/components/footer.css";
 
 
 
 body {
   background-color: #f5efe1;
+}
+
+.content {
+  margin: 0vw 5vw;
 }
