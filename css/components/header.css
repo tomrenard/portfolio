@@ -11,8 +11,27 @@
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  text-align: left;
+  text-align: center;
 }
+
+#header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#header a img {
+  display: none;
+}
+
+#header a:hover img {
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+}
+
 
 
 .about h2 {
@@ -27,7 +46,7 @@
 }
 
 .about p {
-  font-size: 4vw;
+  font-size: 3.8vw;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   display: block;
@@ -36,9 +55,9 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   text-transform: uppercase;
-  margin-right: 12vw;
   line-height: 4vw;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.04em;
+  text-align: right;
 }
 
 .about strong {
