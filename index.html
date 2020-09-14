@@ -13,6 +13,9 @@
  --><meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<!-- <div id="splash">
+    <h1 class="fade-in">Well done, you have now almost access to my phone number +33 6 35 59 83 **.</h1>
+  </div> -->
  <div class="social">
   <ul>
     <li><a href="mailto:hello@tomrenard.xyz" target="_blank">EMAIL</a></li>
@@ -22,9 +25,8 @@
   </div>
 <div class="content">
 <div id="header">
-  <h1><a href="">T/RENARD<img src="https://source.unsplash.com/ddamygbOo1I/800x600" /></a></h1>
+  <h1 class=""><a href="">T/RENARD<img src="https://source.unsplash.com/ddamygbOo1I/800x600" /></a></h1>
 </div>
-
 <div class="about">
   <p>I AM TOM RENARD, A BERLIN BASED <strong>FULL-STACK WEB DEVELOPER</strong> and <strong>UX COPYWRITER</strong>. Tech-savvy with a business background, I am creating meaningful websites with an end-user perspective.
 </p>
@@ -63,7 +65,7 @@
   </ul>
 </div>
 
-<div class="year">
+<div id="year">
   <h1>2k/20</h1>
 </div>
 
@@ -71,21 +73,16 @@
   <div class="back-to-top">
     <a href="#header">BACK TO TOP</a>
   </div>
-  <div class="rights">
-    <p>©TOM RENARD/2020 ALL RIGHTS RESERVED</p>
+  <div id="rights">
+    <a onclick="myWeirdFunction()">©TOM RENARD/2020 ALL RIGHTS RESERVED</a>
   </div>
 
   <div class="color-mode">
-    <a onclick="myFunction()">GRADIENT LOVER?</a>
+    <a onclick="myGradientFunction()">GRADIENT LOVER?</a>
   </div>
 </div>
 </div>
-<script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("gradient-mode");
-}
-</script>
+<script src="application.js"></script>
 </body>
 </html>
 
