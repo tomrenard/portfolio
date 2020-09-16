@@ -152,3 +152,14 @@ linke.addEventListener("mouseout", (event) => {
   linke_d.classList.remove("skill-mode");
 });
 
+// var project = document.getElementById("studio");
+// var project_img = document.getElementById("studio-img");
+// console.log(project);
+// console.log(project_img)
+// project.addEventListener("mouseover", (event) => {
+//   project_img.classList.toggle("projects-img");
+// });
+// item_git.addEventListener("mouseout", (event) => {
+//   logo_git.classList.remove("skill-mode");
+// });
+
