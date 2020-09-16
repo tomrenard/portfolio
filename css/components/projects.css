@@ -1,7 +1,11 @@
-.works li {
+#works li {
   display: flex;
   justify-content: space-between;
   }
+
+ #works ul {
+  position: relative;
+ }
 
 .projects ul {
   list-style-type: none;
@@ -40,14 +44,10 @@
   color: inherit;
 }
 
-.projects li a:hover {
-  opacity: 0.6;
-}
-
 .projects p {
   text-align: right;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5vw;
+  font-size: 2vw;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
@@ -55,4 +55,47 @@
   padding-inline-start: 0px;
   letter-spacing: -0.02em;
   padding-bottom: 10px;
+}
+
+.projects a img {
+  display: none;
+  opacity: 1 !important;
+}
+
+.projects a:hover img {
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: -27%;
+  width: 45%;
+  filter: grayscale(100%);
+  -webkit-animation-name: steam;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-name: steam;
+    animation-duration: .4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes steam {
+    0%, 100% {
+        -webkit-transform: skewX(0deg);
+        opacity: 1;
+    }
+    25% { -webkit-transform: skewX(10deg); opacity: .8; }
+    75% { -webkit-transform: skewX(-10deg); opacity: .8; }
+}
+@keyframes steam {
+    0%, 100% {
+        transform: skewX(0deg);
+        opacity: 1;
+    }
+    25% { transform: skewX(10deg); opacity: .8; }
+    75% { transform: skewX(-10deg); opacity: .8; }
+}
+
+.ghost {
+  opacity: 0 !important;
 }
