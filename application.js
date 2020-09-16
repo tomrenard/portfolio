@@ -5,37 +5,45 @@ function myGradientFunction() {
 
 function myWeirdFunction() {
    var element = document.body;
+   var year = document.getElementById("year");
    element.classList.toggle("weird-mode");
+   year.classList.toggle("glitch");
 }
 
 var q_less = document.getElementById("q-less");
 var desc1 = document.getElementById("desc1");
 var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
+var desc4 = document.getElementById("desc4");
 q_less.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
   desc2.classList.toggle("ghost");
   desc3.classList.toggle("ghost");
+  desc4.classList.toggle("ghost");
 });
 q_less.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
   desc2.classList.remove("ghost");
   desc3.classList.remove("ghost");
+  desc4.classList.toggle("ghost");
 });
 
 var studio = document.getElementById("studio");
 var desc1 = document.getElementById("desc1");
 var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
+var desc4 = document.getElementById("desc4");
 studio.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
   desc2.classList.toggle("ghost");
   desc3.classList.toggle("ghost");
+  desc4.classList.toggle("ghost");
 });
 studio.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
   desc2.classList.remove("ghost");
   desc3.classList.remove("ghost");
+  desc4.classList.toggle("ghost");
 });
 
 // var cocktail = document.getElementById("cocktail");

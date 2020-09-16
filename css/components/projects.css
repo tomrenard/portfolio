@@ -44,6 +44,9 @@
   color: inherit;
 }
 
+.projects li a:hover {
+}
+
 .projects p {
   text-align: right;
   font-family: 'Roboto', sans-serif;
@@ -66,15 +69,15 @@
   display: block;
   position: absolute;
   right: 10%;
-  top: -27%;
-  width: 45%;
+  top: -10%;
+  width: 50%;
   filter: grayscale(100%);
   -webkit-animation-name: steam;
     -webkit-animation-duration: .5s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     animation-name: steam;
-    animation-duration: .4s;
+    animation-duration: .7s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -98,4 +101,12 @@
 
 .ghost {
   opacity: 0 !important;
+}
+
+.incoming a {
+  opacity: 0.6;
+}
+
+.incoming p {
+  opacity: 0.5;
 }
