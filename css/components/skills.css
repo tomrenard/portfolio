@@ -27,7 +27,7 @@
 .skills li {
   text-transform: uppercase;
   line-height: 4vw;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
 }
 
 .comp li {
@@ -46,7 +46,7 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
-  letter-spacing: +0.04em;
+  letter-spacing: +0.03em;
   opacity: 0;
   }
 

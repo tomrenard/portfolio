@@ -134,5 +134,21 @@ item_her.addEventListener("mouseout", (event) => {
   logo_her.classList.remove("skill-mode");
 });
 
+var email = document.getElementById("email");
+var email_d = document.getElementById("email-d");
+email.addEventListener("mouseover", (event) => {
+  email_d.classList.toggle("skill-mode");
+});
+email.addEventListener("mouseout", (event) => {
+  email_d.classList.remove("skill-mode");
+});
 
+var linke = document.getElementById("linke");
+var linke_d = document.getElementById("linke-d");
+linke.addEventListener("mouseover", (event) => {
+  linke_d.classList.toggle("skill-mode");
+});
+linke.addEventListener("mouseout", (event) => {
+  linke_d.classList.remove("skill-mode");
+});
 

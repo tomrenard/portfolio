@@ -3,7 +3,7 @@
 }
 
 #header h1 {
-  font-size: 17vw;
+  font-size: 13vw;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 100;
   display: block;
@@ -54,7 +54,7 @@
   margin-inline-end: 0px;
   text-transform: uppercase;
   line-height: 4vw;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
   text-align: left;
 }
 
