@@ -73,11 +73,11 @@
   width: 50%;
   filter: grayscale(100%);
   -webkit-animation-name: steam;
-    -webkit-animation-duration: .5s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     animation-name: steam;
-    animation-duration: .7s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
