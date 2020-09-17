@@ -25,17 +25,20 @@ var desc1 = document.getElementById("desc1");
 var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
+var desc5 = document.getElementById("desc5");
 q_less.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
   desc2.classList.toggle("ghost");
   desc3.classList.toggle("ghost");
   desc4.classList.toggle("ghost");
+  desc5.classList.toggle("ghost");
 });
 q_less.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
   desc2.classList.remove("ghost");
   desc3.classList.remove("ghost");
   desc4.classList.toggle("ghost");
+  desc5.classList.toggle("ghost");
 });
 
 var studio = document.getElementById("studio");
@@ -43,20 +46,44 @@ var desc1 = document.getElementById("desc1");
 var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
+var desc5 = document.getElementById("desc5");
 var project_img = document.getElementById("studio-img");
 studio.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
   desc2.classList.toggle("ghost");
   desc3.classList.toggle("ghost");
   desc4.classList.toggle("ghost");
+  desc5.classList.toggle("ghost");
 });
 studio.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
   desc2.classList.remove("ghost");
   desc3.classList.remove("ghost");
   desc4.classList.toggle("ghost");
+  desc5.classList.toggle("ghost");
 });
 
+var portfolio = document.getElementById("portfolio");
+var desc1 = document.getElementById("desc1");
+var desc2 = document.getElementById("desc2");
+var desc3 = document.getElementById("desc3");
+var desc4 = document.getElementById("desc4");
+var desc5 = document.getElementById("desc5");
+// var project_img = document.getElementById("studio-img");
+portfolio.addEventListener("mouseover", (event) => {
+  desc1.classList.toggle("ghost");
+  desc2.classList.toggle("ghost");
+  desc3.classList.toggle("ghost");
+  desc4.classList.toggle("ghost");
+  desc5.classList.toggle("ghost");
+});
+portfolio.addEventListener("mouseout", (event) => {
+  desc1.classList.remove("ghost");
+  desc2.classList.remove("ghost");
+  desc3.classList.remove("ghost");
+  desc4.classList.toggle("ghost");
+  desc5.classList.toggle("ghost");
+});
 // var cocktail = document.getElementById("cocktail");
 // var desc1 = document.getElementById("desc1");
 // var desc2 = document.getElementById("desc2");
