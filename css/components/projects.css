@@ -45,6 +45,7 @@
 }
 
 .projects li a:hover {
+  font-weight: bold;
 }
 
 .projects p {
@@ -68,6 +69,7 @@
 .projects a:hover img {
   display: block;
   position: absolute;
+  opacity: 1 !important;
   right: 10%;
   top: -10%;
   width: 50%;
