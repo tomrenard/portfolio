@@ -43,6 +43,7 @@ var desc1 = document.getElementById("desc1");
 var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
+var project_img = document.getElementById("studio-img");
 studio.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
   desc2.classList.toggle("ghost");

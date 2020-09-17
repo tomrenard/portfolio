@@ -107,16 +107,16 @@
         -webkit-transform: skewX(0deg);
         opacity: 1;
     }
-    25% { -webkit-transform: skewX(10deg); opacity: .8; }
-    75% { -webkit-transform: skewX(-10deg); opacity: .8; }
+    25% { -webkit-transform: skewX(0.5deg); opacity: 0.9; }
+    75% { -webkit-transform: skewX(-0.5deg); opacity: 0.9; }
 }
 @keyframes steam {
     0%, 100% {
         transform: skewX(0deg);
         opacity: 1;
     }
-    25% { transform: skewX(10deg); opacity: .8; }
-    75% { transform: skewX(-10deg); opacity: .8; }
+    25% { transform: skewX(0.5deg); opacity: 0.9; }
+    75% { transform: skewX(-0.5deg); opacity: 0.9; }
 }
 
 .ghost {
