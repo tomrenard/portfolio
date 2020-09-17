@@ -1,14 +1,24 @@
 function myGradientFunction() {
-   var element = document.body;
-   element.classList.toggle("gradient-mode");
-}
+  var element = document.body;
+  var item = document.getElementById("gradient");
+  if (item.textContent == "GRADIENT MODE") {
+    item.textContent = "LIGHT MODE";}
+  else {
+    item.textContent = "GRADIENT MODE";}
+  element.classList.toggle("gradient-mode");
+   }
 
 function myWeirdFunction() {
    var element = document.body;
    var year = document.getElementById("year");
+   var tom = document.getElementById("tom");
    element.classList.toggle("weird-mode");
-   year.classList.toggle("glitch");
-}
+   element.classList.toggle("glitches");
+    if (tom.textContent == "©TOM RENARD/2020 ALL RIGHTS RESERVED") {
+    tom.textContent = "CLICK HERE TO STOP THIS";}
+  else {
+    tom.textContent = "©TOM RENARD/2020 ALL RIGHTS RESERVED";}
+   }
 
 var q_less = document.getElementById("q-less");
 var desc1 = document.getElementById("desc1");
@@ -154,12 +164,23 @@ linke.addEventListener("mouseout", (event) => {
 
 // var project = document.getElementById("studio");
 // var project_img = document.getElementById("studio-img");
+// // var image = project_img.getElementsByTagName("img");
 // console.log(project);
-// console.log(project_img)
+// console.log(project_img);
 // project.addEventListener("mouseover", (event) => {
 //   project_img.classList.toggle("projects-img");
 // });
-// item_git.addEventListener("mouseout", (event) => {
-//   logo_git.classList.remove("skill-mode");
+// // item_git.addEventListener("mouseout", (event) => {
+// //   logo_git.classList.remove("skill-mode");
+// // });
+
+// var q = document.getElementById("q-less");
+// var q_img = document.getElementById("q-img");
+// // var image = project_img.getElementsByTagName("img");
+// q.addEventListener("mouseover", (event) => {
+//   q_img.classList.toggle("projects-img");
 // });
+// // item_git.addEventListener("mouseout", (event) => {
+// //   logo_git.classList.remove("skill-mode");
+// // });
 

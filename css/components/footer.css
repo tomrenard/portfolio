@@ -4,6 +4,7 @@
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   font-size: 1vw;
+  margin-bottom: 1vw;
 }
 
 .footer a {
@@ -33,10 +34,10 @@
 }
 
 .weird-mode {
-  opacity: 0.2;
+  text-shadow: 1px 1px 8px #9900cc;
 }
 
-#year{
+.glitches{
   animation: glitch 1s linear infinite;
 }
 
@@ -52,14 +53,14 @@
   }
 }
 
-#year:before,
-#year:after{
-  content: attr(h1);
+#glitches:before,
+#glitches:after{
+  content: attr();
   position: absolute;
   left: 0;
 }
 
-#year:before{
+#glitches:before{
   animation: glitchTop 1s linear infinite;
   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);

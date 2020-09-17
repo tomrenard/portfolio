@@ -81,9 +81,9 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-
-/*.projects-img {
-  display: block;
+/*
+.projects-img {
+  display: block !important;
   position: absolute;
   right: 10%;
   top: -10%;
@@ -97,8 +97,8 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}*/
-
+}
+*/
 
 @-webkit-keyframes steam {
     0%, 100% {
