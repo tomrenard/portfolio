@@ -26,19 +26,22 @@ var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
 var desc5 = document.getElementById("desc5");
+var desc6 = document.getElementById("desc6");
 q_less.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
   desc2.classList.toggle("ghost");
   desc3.classList.toggle("ghost");
   desc4.classList.toggle("ghost");
   desc5.classList.toggle("ghost");
+  desc6.classList.toggle("ghost");
 });
 q_less.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
   desc2.classList.remove("ghost");
   desc3.classList.remove("ghost");
-  desc4.classList.toggle("ghost");
-  desc5.classList.toggle("ghost");
+  desc4.classList.remove("ghost");
+  desc5.classList.remove("ghost");
+  desc6.classList.remove("ghost");
 });
 
 var studio = document.getElementById("studio");
@@ -47,6 +50,7 @@ var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
 var desc5 = document.getElementById("desc5");
+var desc6 = document.getElementById("desc6");
 var project_img = document.getElementById("studio-img");
 studio.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
@@ -54,13 +58,40 @@ studio.addEventListener("mouseover", (event) => {
   desc3.classList.toggle("ghost");
   desc4.classList.toggle("ghost");
   desc5.classList.toggle("ghost");
+  desc6.classList.toggle("ghost");
 });
 studio.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
   desc2.classList.remove("ghost");
   desc3.classList.remove("ghost");
+  desc4.classList.remove("ghost");
+  desc5.classList.remove("ghost");
+  desc6.classList.remove("ghost");
+});
+
+var n26 = document.getElementById("n26");
+var desc1 = document.getElementById("desc1");
+var desc2 = document.getElementById("desc2");
+var desc3 = document.getElementById("desc3");
+var desc4 = document.getElementById("desc4");
+var desc5 = document.getElementById("desc5");
+var desc6 = document.getElementById("desc6");
+var project_img = document.getElementById("studio-img");
+n26.addEventListener("mouseover", (event) => {
+  desc1.classList.toggle("ghost");
+  desc2.classList.toggle("ghost");
+  desc3.classList.toggle("ghost");
   desc4.classList.toggle("ghost");
   desc5.classList.toggle("ghost");
+  desc6.classList.toggle("ghost");
+});
+n26.addEventListener("mouseout", (event) => {
+  desc1.classList.remove("ghost");
+  desc2.classList.remove("ghost");
+  desc3.classList.remove("ghost");
+  desc4.classList.remove("ghost");
+  desc5.classList.remove("ghost");
+  desc6.classList.remove("ghost");
 });
 
 var portfolio = document.getElementById("portfolio");
@@ -69,6 +100,7 @@ var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
 var desc5 = document.getElementById("desc5");
+var desc6 = document.getElementById("desc6");
 // var project_img = document.getElementById("studio-img");
 portfolio.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
@@ -81,8 +113,8 @@ portfolio.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
   desc2.classList.remove("ghost");
   desc3.classList.remove("ghost");
-  desc4.classList.toggle("ghost");
-  desc5.classList.toggle("ghost");
+  desc4.classList.remove("ghost");
+  desc5.classList.remove("ghost");
 });
 // var cocktail = document.getElementById("cocktail");
 // var desc1 = document.getElementById("desc1");
@@ -98,7 +130,32 @@ portfolio.addEventListener("mouseout", (event) => {
 //   desc2.classList.remove("ghost");
 //   desc3.classList.remove("ghost");
 // });
+var item_react = document.getElementById("react");
+var logo_react = document.getElementById("react-l");
+item_react.addEventListener("mouseover", (event) => {
+  logo_react.classList.toggle("skill-mode");
+});
+item_react.addEventListener("mouseout", (event) => {
+  logo_react.classList.remove("skill-mode");
+});
 
+var item_redux = document.getElementById("redux");
+var logo_redux = document.getElementById("redux-l");
+item_redux.addEventListener("mouseover", (event) => {
+  logo_redux.classList.toggle("skill-mode");
+});
+item_redux.addEventListener("mouseout", (event) => {
+  logo_redux.classList.remove("skill-mode");
+});
+
+var item_wd = document.getElementById("wd");
+var logo_wd = document.getElementById("wd-l");
+item_wd.addEventListener("mouseover", (event) => {
+  logo_wd.classList.toggle("skill-mode");
+});
+item_wd.addEventListener("mouseout", (event) => {
+  logo_wd.classList.remove("skill-mode");
+});
 
 var item_ruby = document.getElementById("ruby");
 var logo_ruby = document.getElementById("ruby-l");
