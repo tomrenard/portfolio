@@ -20,15 +20,15 @@ function myWeirdFunction() {
     tom.textContent = "©TOM RENARD/2020 ALL RIGHTS RESERVED";}
    }
 
-function myEnFunction() {
-  var about = document.querySelector(".about");
-  var lang = document.getElementById("lang");
-  if (lang.textContent == "/FR") {
-    lang.textContent = "/EN";}
-    about.textContent == "lol"
-    else {
-    lang.textContent = "/FR";}
-   }
+// function myEnFunction() {
+//   var about = document.querySelector(".about");
+//   var lang = document.getElementById("lang");
+//   if (lang.textContent == "/FR") {
+//     lang.textContent = "/EN";}
+//     about.textContent == "lol"
+//     else {
+//     lang.textContent = "/FR";}
+//    }
 
 var q_less = document.getElementById("q-less");
 var desc1 = document.getElementById("desc1");
