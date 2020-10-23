@@ -1,7 +1,4 @@
 .social {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
   text-align: right;
   padding: 3px 3px;
 }

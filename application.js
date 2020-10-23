@@ -16,8 +16,18 @@ function myWeirdFunction() {
    element.classList.toggle("glitches");
     if (tom.textContent == "©TOM RENARD/2020 ALL RIGHTS RESERVED") {
     tom.textContent = "CLICK HERE TO STOP THIS";}
-  else {
+    else {
     tom.textContent = "©TOM RENARD/2020 ALL RIGHTS RESERVED";}
+   }
+
+function myEnFunction() {
+  var about = document.querySelector(".about");
+  var lang = document.getElementById("lang");
+  if (lang.textContent == "/FR") {
+    lang.textContent = "/EN";}
+    about.textContent == "lol"
+    else {
+    lang.textContent = "/FR";}
    }
 
 var q_less = document.getElementById("q-less");
@@ -26,14 +36,14 @@ var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
 var desc5 = document.getElementById("desc5");
-var desc6 = document.getElementById("desc6");
+// var desc6 = document.getElementById("desc6");
 q_less.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
   desc2.classList.toggle("ghost");
   desc3.classList.toggle("ghost");
   desc4.classList.toggle("ghost");
   desc5.classList.toggle("ghost");
-  desc6.classList.toggle("ghost");
+  // desc6.classList.toggle("ghost");
 });
 q_less.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
@@ -41,7 +51,7 @@ q_less.addEventListener("mouseout", (event) => {
   desc3.classList.remove("ghost");
   desc4.classList.remove("ghost");
   desc5.classList.remove("ghost");
-  desc6.classList.remove("ghost");
+  // desc6.classList.remove("ghost");
 });
 
 var studio = document.getElementById("studio");
@@ -50,7 +60,7 @@ var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
 var desc5 = document.getElementById("desc5");
-var desc6 = document.getElementById("desc6");
+// var desc6 = document.getElementById("desc6");
 var project_img = document.getElementById("studio-img");
 studio.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
@@ -58,7 +68,7 @@ studio.addEventListener("mouseover", (event) => {
   desc3.classList.toggle("ghost");
   desc4.classList.toggle("ghost");
   desc5.classList.toggle("ghost");
-  desc6.classList.toggle("ghost");
+  // desc6.classList.toggle("ghost");
 });
 studio.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
@@ -66,7 +76,7 @@ studio.addEventListener("mouseout", (event) => {
   desc3.classList.remove("ghost");
   desc4.classList.remove("ghost");
   desc5.classList.remove("ghost");
-  desc6.classList.remove("ghost");
+  // desc6.classList.remove("ghost");
 });
 
 var n26 = document.getElementById("n26");
@@ -75,7 +85,7 @@ var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
 var desc5 = document.getElementById("desc5");
-var desc6 = document.getElementById("desc6");
+// var desc6 = document.getElementById("desc6");
 var project_img = document.getElementById("studio-img");
 n26.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
@@ -83,7 +93,7 @@ n26.addEventListener("mouseover", (event) => {
   desc3.classList.toggle("ghost");
   desc4.classList.toggle("ghost");
   desc5.classList.toggle("ghost");
-  desc6.classList.toggle("ghost");
+  // desc6.classList.toggle("ghost");
 });
 n26.addEventListener("mouseout", (event) => {
   desc1.classList.remove("ghost");
@@ -91,7 +101,7 @@ n26.addEventListener("mouseout", (event) => {
   desc3.classList.remove("ghost");
   desc4.classList.remove("ghost");
   desc5.classList.remove("ghost");
-  desc6.classList.remove("ghost");
+  // desc6.classList.remove("ghost");
 });
 
 var portfolio = document.getElementById("portfolio");
@@ -100,7 +110,7 @@ var desc2 = document.getElementById("desc2");
 var desc3 = document.getElementById("desc3");
 var desc4 = document.getElementById("desc4");
 var desc5 = document.getElementById("desc5");
-var desc6 = document.getElementById("desc6");
+// var desc6 = document.getElementById("desc6");
 // var project_img = document.getElementById("studio-img");
 portfolio.addEventListener("mouseover", (event) => {
   desc1.classList.toggle("ghost");
@@ -246,7 +256,6 @@ linke.addEventListener("mouseover", (event) => {
 linke.addEventListener("mouseout", (event) => {
   linke_d.classList.remove("skill-mode");
 });
-
 // var project = document.getElementById("studio");
 // var project_img = document.getElementById("studio-img");
 // // var image = project_img.getElementsByTagName("img");
@@ -268,4 +277,3 @@ linke.addEventListener("mouseout", (event) => {
 // // item_git.addEventListener("mouseout", (event) => {
 // //   logo_git.classList.remove("skill-mode");
 // // });
-
