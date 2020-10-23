@@ -17,7 +17,7 @@
   <div class="top-page">
    <div class="languages">
   <ul>
-    <li><a id="lang" onclick="myEnFunction()">/FR</a></li>
+    <li><a id="lang" onclick="Grosselang();showLocale();">/FR</a></li>
   </ul>
   </div>
  <div class="social">
@@ -33,16 +33,19 @@
 <div id="header">
   <h1 class=""><a href="">TOM/RENARD<img src="https://source.unsplash.com/ddamygbOo1I/800x600" /></a></h1>
 </div>
-<div class="about en">
+<div class="LocaleEn">
+<div class="about">
   <p>I AM TOM RENARD, A BERLIN BASED <strong>FULL-STACK WEB DEVELOPER</strong> and <strong>UX COPYWRITER</strong>. Tech-savvy with a business background, I am creating meaningful websites and writing content with an end-user perspective.
 </p>
 </div>
-
-<!-- <div>
-  <div class="about fr">
+</div>
+<div class="LocaleFr">
+<div>
+  <div class="about">
   <p>BONJOUR, JE M'APPELLE TOM RENARD, JE SUIS <strong>DÉVELOPPEUR WEB FULL-STACK</strong> ET <strong>RÉDACTEUR WEB</strong>. Passionné de technologie, je crée des sites web et je rédige du contenu avec l'objectif d'optimiser l'expérience utilisateur.
 </p>
-</div> -->
+</div>
+</div>
 </div>
 <div class="projects">
   <h2>/WORK</h2>
@@ -78,11 +81,21 @@
  </div>
  <div class="contact">
   <h2>/CONTACT</h2>
+  <div class="LocaleEn">
   <div class="compas">
    <ul>
     <li><a id="email" href="mailto:hello@tomrenard.xyz" target="_blank">EMAIL</a><p id="email-d">hello@tomrenard.xyz</p></li>
     <li><a id="linke" href="https://www.linkedin.com/in/tom-renard-9401547a/" target="_blank">LINKEDIN</a><p id="linke-d">GO AHEAD & VISIT MY PROFILE 🚀</p></li>
   </ul>
+</div>
+</div>
+<div class="LocaleFr">
+  <div class="compas">
+   <ul>
+    <li><a id="email" href="mailto:hello@tomrenard.xyz" target="_blank">EMAIL</a><p id="email-d">hello@tomrenard.xyz</p></li>
+    <li><a id="linke" href="https://www.linkedin.com/in/tom-renard-9401547a/" target="_blank">LINKEDIN</a><p id="linke-d">N'HÉSITEZ PAS À VISITER MON PROFIL 🚀</p></li>
+  </ul>
+</div>
 </div>
 </div>
 <div id="year">
@@ -101,6 +114,7 @@
 </div>
 </div>
 <script type="text/javascript"  src="application.js" charset="utf-8" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>
 

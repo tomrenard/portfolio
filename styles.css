@@ -8,7 +8,18 @@
 @import "css/components/languages.css";
 
 
+.hiddenLocale {
+  display:none;
+}
 
+/*
+.LocaleFr {
+  display: none;
+}
+
+.showLocale {
+  display: block !important;
+}*/
 
 
 body {

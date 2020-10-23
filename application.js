@@ -29,6 +29,30 @@ function myWeirdFunction() {
 //     else {
 //     lang.textContent = "/FR";}
 //    }
+function Grosselang() {
+  var lang = document.getElementById("lang");
+  if (lang.textContent == "/FR") {
+    lang.textContent = "/EN";}
+  else {
+    lang.textContent = "/FR";}
+}
+
+function showLocale() {
+  var lang = document.getElementById("lang");
+  var lang_fr = document.querySelector(".LocaleFr");
+  var lang_en = document.querySelector(".LocaleEn");
+
+      if (lang.textContent == "/FR")
+      {
+        lang_en.classList.remove('hiddenLocale');
+        lang_fr.classList.toggle('hiddenLocale');
+      }
+      elsif (lang.textContent == "/EN")
+      {
+         lang_fr.classList.remove('hiddenLocale');
+        lang_en.classList.toggle('hiddenLocale');
+      }
+}
 
 var q_less = document.getElementById("q-less");
 var desc1 = document.getElementById("desc1");
@@ -277,3 +301,4 @@ linke.addEventListener("mouseout", (event) => {
 // // item_git.addEventListener("mouseout", (event) => {
 // //   logo_git.classList.remove("skill-mode");
 // // });
+
