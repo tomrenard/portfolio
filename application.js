@@ -45,7 +45,6 @@ function showLocale() {
         lang_en.classList.toggle('hiddenLocale');
       }
 }
-window.onload = function() {
 var q_less = document.getElementById("q-less");
 var desc1 = document.getElementById("desc1");
 var desc2 = document.getElementById("desc2");
@@ -258,4 +257,3 @@ linke.addEventListener("mouseover", (event) => {
 linke.addEventListener("mouseout", (event) => {
   linke_d.classList.remove("skill-mode");
 });
-}
