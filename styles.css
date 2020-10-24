@@ -12,15 +12,10 @@
   display:none;
 }
 
-/*
-.LocaleFr {
+
+.french {
   display: none;
 }
-
-.showLocale {
-  display: block !important;
-}*/
-
 
 body {
   background-color: #f5efe1;

@@ -37,19 +37,30 @@ function Grosselang() {
     lang.textContent = "/FR";}
 }
 
+
+window.onload = function() {
+  var lang_fr = document.querySelector(".LocaleFr");
+  lang_fr.classList.toggle('hiddenLocale');
+  console.log(lang_fr);
+}
+
 function showLocale() {
   var lang = document.getElementById("lang");
   var lang_fr = document.querySelector(".LocaleFr");
+  var abt_fr = document.querySelector(".french");
   var lang_en = document.querySelector(".LocaleEn");
+  var cont_fr = document.querySelector(".link-fr");
+  var cont_en = document.querySelector(".link-en");
 
       if (lang.textContent == "/FR")
       {
         lang_en.classList.remove('hiddenLocale');
         lang_fr.classList.toggle('hiddenLocale');
       }
-      elsif (lang.textContent == "/EN")
+      else
       {
-         lang_fr.classList.remove('hiddenLocale');
+        lang_fr.classList.remove('french');
+        lang_fr.classList.remove('hiddenLocale');
         lang_en.classList.toggle('hiddenLocale');
       }
 }
