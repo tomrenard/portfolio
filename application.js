@@ -20,15 +20,6 @@ function myWeirdFunction() {
     tom.textContent = "©TOM RENARD/2020 ALL RIGHTS RESERVED";}
    }
 
-// function myEnFunction() {
-//   var about = document.querySelector(".about");
-//   var lang = document.getElementById("lang");
-//   if (lang.textContent == "/FR") {
-//     lang.textContent = "/EN";}
-//     about.textContent == "lol"
-//     else {
-//     lang.textContent = "/FR";}
-//    }
 function Grosselang() {
   var lang = document.getElementById("lang");
   if (lang.textContent == "/FR") {
@@ -150,20 +141,7 @@ portfolio.addEventListener("mouseout", (event) => {
   desc4.classList.remove("ghost");
   desc5.classList.remove("ghost");
 });
-// var cocktail = document.getElementById("cocktail");
-// var desc1 = document.getElementById("desc1");
-// var desc2 = document.getElementById("desc2");
-// var desc3 = document.getElementById("desc3");
-// cocktail.addEventListener("mouseover", (event) => {
-//   desc1.classList.toggle("ghost");
-//   desc2.classList.toggle("ghost");
-//   desc3.classList.toggle("ghost");
-// });
-// cocktail.addEventListener("mouseout", (event) => {
-//   desc1.classList.remove("ghost");
-//   desc2.classList.remove("ghost");
-//   desc3.classList.remove("ghost");
-// });
+
 var item_react = document.getElementById("react");
 var logo_react = document.getElementById("react-l");
 item_react.addEventListener("mouseover", (event) => {
@@ -281,25 +259,3 @@ linke.addEventListener("mouseout", (event) => {
   linke_d.classList.remove("skill-mode");
 });
 }
-// var project = document.getElementById("studio");
-// var project_img = document.getElementById("studio-img");
-// // var image = project_img.getElementsByTagName("img");
-// console.log(project);
-// console.log(project_img);
-// project.addEventListener("mouseover", (event) => {
-//   project_img.classList.toggle("projects-img");
-// });
-// // item_git.addEventListener("mouseout", (event) => {
-// //   logo_git.classList.remove("skill-mode");
-// // });
-
-// var q = document.getElementById("q-less");
-// var q_img = document.getElementById("q-img");
-// // var image = project_img.getElementsByTagName("img");
-// q.addEventListener("mouseover", (event) => {
-//   q_img.classList.toggle("projects-img");
-// });
-// // item_git.addEventListener("mouseout", (event) => {
-// //   logo_git.classList.remove("skill-mode");
-// // });
-
