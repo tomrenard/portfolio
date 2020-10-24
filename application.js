@@ -37,21 +37,11 @@ function Grosselang() {
     lang.textContent = "/FR";}
 }
 
-
-window.onload = function() {
-  var lang_fr = document.querySelector(".LocaleFr");
-  lang_fr.classList.toggle('hiddenLocale');
-  console.log(lang_fr);
-}
-
 function showLocale() {
   var lang = document.getElementById("lang");
   var lang_fr = document.querySelector(".LocaleFr");
   var abt_fr = document.querySelector(".french");
   var lang_en = document.querySelector(".LocaleEn");
-  var cont_fr = document.querySelector(".link-fr");
-  var cont_en = document.querySelector(".link-en");
-
       if (lang.textContent == "/FR")
       {
         lang_en.classList.remove('hiddenLocale');
@@ -64,7 +54,7 @@ function showLocale() {
         lang_en.classList.toggle('hiddenLocale');
       }
 }
-
+window.onload = function() {
 var q_less = document.getElementById("q-less");
 var desc1 = document.getElementById("desc1");
 var desc2 = document.getElementById("desc2");
@@ -88,7 +78,6 @@ q_less.addEventListener("mouseout", (event) => {
   desc5.classList.remove("ghost");
   // desc6.classList.remove("ghost");
 });
-
 var studio = document.getElementById("studio");
 var desc1 = document.getElementById("desc1");
 var desc2 = document.getElementById("desc2");
@@ -291,6 +280,7 @@ linke.addEventListener("mouseover", (event) => {
 linke.addEventListener("mouseout", (event) => {
   linke_d.classList.remove("skill-mode");
 });
+}
 // var project = document.getElementById("studio");
 // var project_img = document.getElementById("studio-img");
 // // var image = project_img.getElementsByTagName("img");
