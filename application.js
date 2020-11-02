@@ -45,6 +45,40 @@ function showLocale() {
         lang_en.classList.toggle('hiddenLocale');
       }
 }
+
+// var works = document.querySelectorAll('.work');
+
+// works.forEach(work => work.addEventListener("mouseover", console.log('Hi')));
+// works.forEach(work => work.addEventListener("mouseout", hiddenFunctionBis()));
+
+// function hiddenFunction () {
+//   var desc1 = document.getElementById("desc1");
+//   var desc2 = document.getElementById("desc2");
+//   var desc3 = document.getElementById("desc3");
+//   var desc4 = document.getElementById("desc4");
+//   var desc5 = document.getElementById("desc5");
+//   console.log(desc1);
+//   desc1.classList.add("ghost");
+//   desc2.classList.toggle("ghost");
+//   desc3.classList.toggle("ghost");
+//   desc4.classList.toggle("ghost");
+//   desc5.classList.toggle("ghost");
+// }
+
+// function hiddenFunctionBis () {
+//   var desc1 = document.getElementById("desc1");
+//   var desc2 = document.getElementById("desc2");
+//   var desc3 = document.getElementById("desc3");
+//   var desc4 = document.getElementById("desc4");
+//   var desc5 = document.getElementById("desc5");
+//   desc1.classList.remove("ghost");
+//   desc2.classList.remove("ghost");
+//   desc3.classList.remove("ghost");
+//   desc4.classList.remove("ghost");
+//   desc5.classList.remove("ghost");
+// }
+
+
 var q_less = document.getElementById("q-less");
 var desc1 = document.getElementById("desc1");
 var desc2 = document.getElementById("desc2");
