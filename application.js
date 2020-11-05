@@ -326,7 +326,7 @@ skip_button.addEventListener('click', opacitation);
 function opacitation() {
   var splash = document.querySelector('.splash');
   splash.classList.add("fade-in");
-  recognition.stop()
+  // recognition.stop()
 }
 
 // recognition.addEventListener('end', recognition.start);
