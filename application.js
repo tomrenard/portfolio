@@ -321,7 +321,6 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
   });
 
 var skip_button = document.querySelector('.splash button');
-skip_button.addEventListener('click', opacitation);
 
 function opacitation() {
   var splash = document.querySelector('.splash');
