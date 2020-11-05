@@ -304,7 +304,7 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
   recognition.lang = 'en-US';
   recognition.continuous = true;
 
-
+  var footer = document.querySelector('.footer-opening');
   var splash = document.querySelector('.splash');
 
   recognition.addEventListener('result', e => {
@@ -315,6 +315,7 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
 
       if (transcript.includes('hi')) {
         splash.classList.add("fade-in");
+        footer.classList.add("fade-in");
         recognition.stop()
       }
 
@@ -324,7 +325,9 @@ var skip_button = document.querySelector('.splash button');
 
 function opacitation() {
   var splash = document.querySelector('.splash');
-  splash.classList.add("fade-in");
+  var footer = document.querySelector('.footer-opening');
+  splash.classList.add("fade-in")
+  footer.classList.add("fade-in");
   // recognition.stop()
 }
 

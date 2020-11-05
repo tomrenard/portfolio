@@ -27,6 +27,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   line-height: 2vh;
   opacity: 1;
   font-family: 'Cormorant Garamond', serif;
@@ -61,9 +62,30 @@
 .fade-in {
   opacity: 0;
   z-index: -999;
+  display: none;
+  position: relative;
 }
 
 /*.phone-mode {
   opacity: 1;
   z-index: 999;
 }*/
+
+.splash span {
+  text-shadow: 0.7px 0.9px 0.8px #f5efe1;
+}
+
+.footer-opening span {
+  display: flex;
+  color: #f5efe1;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  text-align: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3vw;
+  margin-bottom: 2px;
+}
