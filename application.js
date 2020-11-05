@@ -78,6 +78,7 @@ function showLocale() {
 //   desc5.classList.remove("ghost");
 // }
 
+// Works list
 
 var q_less = document.getElementById("q-less");
 var desc1 = document.getElementById("desc1");
@@ -174,6 +175,8 @@ portfolio.addEventListener("mouseout", (event) => {
   desc4.classList.remove("ghost");
   desc5.classList.remove("ghost");
 });
+
+// Skills list
 
 var item_react = document.getElementById("react");
 var logo_react = document.getElementById("react-l");
@@ -291,3 +294,41 @@ linke.addEventListener("mouseover", (event) => {
 linke.addEventListener("mouseout", (event) => {
   linke_d.classList.remove("skill-mode");
 });
+
+// SpeechRecognition
+
+window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  var recognition = new SpeechRecognition();
+  recognition.interimResults = true;
+  recognition.lang = 'en-US';
+  recognition.continuous = true;
+
+
+  var splash = document.querySelector('.splash');
+
+  recognition.addEventListener('result', e => {
+    var transcript = Array.from(e.results)
+      .map(result => result[0])
+      .map(result => result.transcript)
+      .join('');
+
+      if (transcript.includes('hi')) {
+        splash.classList.add("fade-in");
+        recognition.stop()
+      }
+
+  });
+
+var skip_button = document.querySelector('.splash button');
+skip_button.addEventListener('click', opacitation);
+
+function opacitation() {
+  var splash = document.querySelector('.splash');
+  splash.classList.add("fade-in");
+  recognition.stop()
+}
+
+// recognition.addEventListener('end', recognition.start);
+// window.addEventListener('scroll', recognition.end);
+recognition.start();
