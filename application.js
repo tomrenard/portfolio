@@ -1,3 +1,5 @@
+// Gradient mode
+
 function myGradientFunction() {
   var element = document.body;
   var item = document.getElementById("gradient");
@@ -7,6 +9,8 @@ function myGradientFunction() {
     item.textContent = "GRADIENT MODE";}
   element.classList.toggle("gradient-mode");
    }
+
+// Glitches
 
 function myWeirdFunction() {
    var element = document.body;
@@ -19,6 +23,8 @@ function myWeirdFunction() {
     else {
     tom.textContent = "©TOM RENARD/2020 ALL RIGHTS RESERVED";}
    }
+
+// Languages
 
 function Grosselang() {
   var lang = document.getElementById("lang");
@@ -46,236 +52,39 @@ function showLocale() {
       }
 }
 
-// var works = document.querySelectorAll('.work');
-
-// works.forEach(work => work.addEventListener("mouseover", console.log('Hi')));
-// works.forEach(work => work.addEventListener("mouseout", hiddenFunctionBis()));
-
-// function hiddenFunction () {
-//   var desc1 = document.getElementById("desc1");
-//   var desc2 = document.getElementById("desc2");
-//   var desc3 = document.getElementById("desc3");
-//   var desc4 = document.getElementById("desc4");
-//   var desc5 = document.getElementById("desc5");
-//   console.log(desc1);
-//   desc1.classList.add("ghost");
-//   desc2.classList.toggle("ghost");
-//   desc3.classList.toggle("ghost");
-//   desc4.classList.toggle("ghost");
-//   desc5.classList.toggle("ghost");
-// }
-
-// function hiddenFunctionBis () {
-//   var desc1 = document.getElementById("desc1");
-//   var desc2 = document.getElementById("desc2");
-//   var desc3 = document.getElementById("desc3");
-//   var desc4 = document.getElementById("desc4");
-//   var desc5 = document.getElementById("desc5");
-//   desc1.classList.remove("ghost");
-//   desc2.classList.remove("ghost");
-//   desc3.classList.remove("ghost");
-//   desc4.classList.remove("ghost");
-//   desc5.classList.remove("ghost");
-// }
-
 // Works list
 
-var q_less = document.getElementById("q-less");
-var desc1 = document.getElementById("desc1");
-var desc2 = document.getElementById("desc2");
-var desc3 = document.getElementById("desc3");
-var desc4 = document.getElementById("desc4");
-var desc5 = document.getElementById("desc5");
-// var desc6 = document.getElementById("desc6");
-q_less.addEventListener("mouseover", (event) => {
-  desc1.classList.toggle("ghost");
-  desc2.classList.toggle("ghost");
-  desc3.classList.toggle("ghost");
-  desc4.classList.toggle("ghost");
-  desc5.classList.toggle("ghost");
-  // desc6.classList.toggle("ghost");
-});
-q_less.addEventListener("mouseout", (event) => {
-  desc1.classList.remove("ghost");
-  desc2.classList.remove("ghost");
-  desc3.classList.remove("ghost");
-  desc4.classList.remove("ghost");
-  desc5.classList.remove("ghost");
-  // desc6.classList.remove("ghost");
-});
-var studio = document.getElementById("studio");
-var desc1 = document.getElementById("desc1");
-var desc2 = document.getElementById("desc2");
-var desc3 = document.getElementById("desc3");
-var desc4 = document.getElementById("desc4");
-var desc5 = document.getElementById("desc5");
-// var desc6 = document.getElementById("desc6");
-var project_img = document.getElementById("studio-img");
-studio.addEventListener("mouseover", (event) => {
-  desc1.classList.toggle("ghost");
-  desc2.classList.toggle("ghost");
-  desc3.classList.toggle("ghost");
-  desc4.classList.toggle("ghost");
-  desc5.classList.toggle("ghost");
-  // desc6.classList.toggle("ghost");
-});
-studio.addEventListener("mouseout", (event) => {
-  desc1.classList.remove("ghost");
-  desc2.classList.remove("ghost");
-  desc3.classList.remove("ghost");
-  desc4.classList.remove("ghost");
-  desc5.classList.remove("ghost");
-  // desc6.classList.remove("ghost");
-});
+var works = document.querySelectorAll('.work');
+works.forEach(a => a.addEventListener("mouseover", hiddenFunction));
+works.forEach(a => a.addEventListener("mouseout", hiddenFunction2));
 
-var n26 = document.getElementById("n26");
-var desc1 = document.getElementById("desc1");
-var desc2 = document.getElementById("desc2");
-var desc3 = document.getElementById("desc3");
-var desc4 = document.getElementById("desc4");
-var desc5 = document.getElementById("desc5");
-// var desc6 = document.getElementById("desc6");
-var project_img = document.getElementById("studio-img");
-n26.addEventListener("mouseover", (event) => {
-  desc1.classList.toggle("ghost");
-  desc2.classList.toggle("ghost");
-  desc3.classList.toggle("ghost");
-  desc4.classList.toggle("ghost");
-  desc5.classList.toggle("ghost");
-  // desc6.classList.toggle("ghost");
-});
-n26.addEventListener("mouseout", (event) => {
-  desc1.classList.remove("ghost");
-  desc2.classList.remove("ghost");
-  desc3.classList.remove("ghost");
-  desc4.classList.remove("ghost");
-  desc5.classList.remove("ghost");
-  // desc6.classList.remove("ghost");
-});
+function hiddenFunction () {
+  var desc = document.querySelectorAll('.desc');
+  desc.forEach(p => p.classList.toggle("ghost"));
+}
 
-var portfolio = document.getElementById("portfolio");
-var desc1 = document.getElementById("desc1");
-var desc2 = document.getElementById("desc2");
-var desc3 = document.getElementById("desc3");
-var desc4 = document.getElementById("desc4");
-var desc5 = document.getElementById("desc5");
-// var desc6 = document.getElementById("desc6");
-// var project_img = document.getElementById("studio-img");
-portfolio.addEventListener("mouseover", (event) => {
-  desc1.classList.toggle("ghost");
-  desc2.classList.toggle("ghost");
-  desc3.classList.toggle("ghost");
-  desc4.classList.toggle("ghost");
-  desc5.classList.toggle("ghost");
-});
-portfolio.addEventListener("mouseout", (event) => {
-  desc1.classList.remove("ghost");
-  desc2.classList.remove("ghost");
-  desc3.classList.remove("ghost");
-  desc4.classList.remove("ghost");
-  desc5.classList.remove("ghost");
-});
+function hiddenFunction2 () {
+  var desc = document.querySelectorAll('.desc');
+  desc.forEach(p => p.classList.remove("ghost"));
+}
 
 // Skills list
 
-var item_react = document.getElementById("react");
-var logo_react = document.getElementById("react-l");
-item_react.addEventListener("mouseover", (event) => {
-  logo_react.classList.toggle("skill-mode");
-});
-item_react.addEventListener("mouseout", (event) => {
-  logo_react.classList.remove("skill-mode");
-});
+var skills = document.querySelectorAll('.skill');
+skills.forEach(a => a.addEventListener("mouseover", logoFunction));
+skills.forEach(a => a.addEventListener("mouseout", logoRemoveFunction));
 
-var item_redux = document.getElementById("redux");
-var logo_redux = document.getElementById("redux-l");
-item_redux.addEventListener("mouseover", (event) => {
-  logo_redux.classList.toggle("skill-mode");
-});
-item_redux.addEventListener("mouseout", (event) => {
-  logo_redux.classList.remove("skill-mode");
-});
+function logoFunction () {
+  var logos = document.querySelectorAll('.logo');
+  logos.forEach(p => p.classList.add("skill-mode"));
+}
 
-var item_wd = document.getElementById("wd");
-var logo_wd = document.getElementById("wd-l");
-item_wd.addEventListener("mouseover", (event) => {
-  logo_wd.classList.toggle("skill-mode");
-});
-item_wd.addEventListener("mouseout", (event) => {
-  logo_wd.classList.remove("skill-mode");
-});
+function logoRemoveFunction () {
+  var logos = document.querySelectorAll('.logo');
+  logos.forEach(p => p.classList.remove("skill-mode"));
+}
 
-var item_ruby = document.getElementById("ruby");
-var logo_ruby = document.getElementById("ruby-l");
-item_ruby.addEventListener("mouseover", (event) => {
-  logo_ruby.classList.toggle("skill-mode");
-});
-item_ruby.addEventListener("mouseout", (event) => {
-  logo_ruby.classList.remove("skill-mode");
-});
-
-var item_js = document.getElementById("js");
-var logo_js = document.getElementById("js-l");
-item_js.addEventListener("mouseover", (event) => {
-  logo_js.classList.toggle("skill-mode");
-});
-item_js.addEventListener("mouseout", (event) => {
-  logo_js.classList.remove("skill-mode");
-});
-
-var item_html = document.getElementById("html");
-var logo_html = document.getElementById("html-l");
-item_html.addEventListener("mouseover", (event) => {
-  logo_html.classList.toggle("skill-mode");
-});
-item_html.addEventListener("mouseout", (event) => {
-  logo_html.classList.remove("skill-mode");
-});
-
-var item_css = document.getElementById("css");
-var logo_css = document.getElementById("css-l");
-item_css.addEventListener("mouseover", (event) => {
-  logo_css.classList.toggle("skill-mode");
-});
-item_css.addEventListener("mouseout", (event) => {
-  logo_css.classList.remove("skill-mode");
-});
-
-var item_boot = document.getElementById("boot");
-var logo_boot = document.getElementById("boot-l");
-item_boot.addEventListener("mouseover", (event) => {
-  logo_boot.classList.toggle("skill-mode");
-});
-item_boot.addEventListener("mouseout", (event) => {
-  logo_boot.classList.remove("skill-mode");
-});
-
-var item_sql = document.getElementById("sql");
-var logo_sql = document.getElementById("sql-l");
-item_sql.addEventListener("mouseover", (event) => {
-  logo_sql.classList.toggle("skill-mode");
-});
-item_sql.addEventListener("mouseout", (event) => {
-  logo_sql.classList.remove("skill-mode");
-});
-
-var item_git = document.getElementById("github");
-var logo_git = document.getElementById("github-l");
-item_git.addEventListener("mouseover", (event) => {
-  logo_git.classList.toggle("skill-mode");
-});
-item_git.addEventListener("mouseout", (event) => {
-  logo_git.classList.remove("skill-mode");
-});
-
-var item_her = document.getElementById("heroku");
-var logo_her = document.getElementById("heroku-l");
-item_her.addEventListener("mouseover", (event) => {
-  logo_her.classList.toggle("skill-mode");
-});
-item_her.addEventListener("mouseout", (event) => {
-  logo_her.classList.remove("skill-mode");
-});
+// Contact links
 
 var email = document.getElementById("email");
 var email_d = document.getElementById("email-d");
@@ -328,9 +137,6 @@ function opacitation() {
   var footer = document.querySelector('.footer-opening');
   splash.classList.add("fade-in")
   footer.classList.add("fade-in");
-  // recognition.stop()
 }
 
-// recognition.addEventListener('end', recognition.start);
-// window.addEventListener('scroll', recognition.end);
 recognition.start();
