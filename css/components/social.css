@@ -22,18 +22,7 @@
 
 @media screen and (max-width: 900px) {
   .social li {
-    margin: -2px 0;
-    clear: both;
-  }
-
-  .social a {
-    font-size: 1.3vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .social li {
-    margin: -6px 0;
+    margin: -8px 0;
     clear: both;
   }
 }
