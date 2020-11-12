@@ -18,3 +18,22 @@
 .social li a:hover {
   opacity: 0.6;
 }
+
+
+@media screen and (max-width: 900px) {
+  .social li {
+    margin: -2px 0;
+    clear: both;
+  }
+
+  .social a {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .social li {
+    margin: -6px 0;
+    clear: both;
+  }
+}
