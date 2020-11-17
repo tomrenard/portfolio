@@ -70,9 +70,9 @@
   display: block;
   position: absolute;
   opacity: 1 !important;
-  right: 10%;
-  top: -10%;
-  width: 50%;
+  right: 5%;
+  top: 5%;
+  width: 55%;
   filter: grayscale(100%);
   -webkit-animation-name: steam;
     -webkit-animation-duration: 1s;
