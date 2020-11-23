@@ -12,17 +12,17 @@ function myGradientFunction() {
 
 // Glitches
 
-function myWeirdFunction() {
-   var element = document.body;
-   var year = document.getElementById("year");
-   var tom = document.getElementById("tom");
-   element.classList.toggle("weird-mode");
-   element.classList.toggle("glitches");
-    if (tom.textContent == "©TOM RENARD/2020 ALL RIGHTS RESERVED") {
-    tom.textContent = "CLICK HERE TO STOP THIS";}
-    else {
-    tom.textContent = "©TOM RENARD/2020 ALL RIGHTS RESERVED";}
-   }
+// function myWeirdFunction() {
+//    var element = document.body;
+//    var year = document.getElementById("year");
+//    var tom = document.getElementById("tom");
+//    element.classList.toggle("weird-mode");
+//    element.classList.toggle("glitches");
+//     if (tom.textContent == "©TOM RENARD/2020 ALL RIGHTS RESERVED") {
+//     tom.textContent = "CLICK HERE TO STOP THIS";}
+//     else {
+//     tom.textContent = "©TOM RENARD/2020 ALL RIGHTS RESERVED";}
+//    }
 
 // Languages
 
