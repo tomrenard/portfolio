@@ -3,10 +3,6 @@
 function myGradientFunction() {
   var element = document.body;
   var item = document.getElementById("gradient");
-  if (item.textContent == "GRADIENT MODE") {
-    item.textContent = "LIGHT MODE";}
-  else {
-    item.textContent = "GRADIENT MODE";}
   element.classList.toggle("gradient-mode");
    }
 

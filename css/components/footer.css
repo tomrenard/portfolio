@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-size: 1vw;
   margin-bottom: 1vw;
