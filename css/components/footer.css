@@ -5,6 +5,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1vw;
   margin-bottom: 1vw;
+  padding-top: 5vw;
 }
 
 @media screen and (max-width: 900px) {
@@ -19,7 +20,7 @@
 }
 
 #year h1 {
-  font-size: 20vw;
+  font-size: 5vw;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 100;
   display: block;
