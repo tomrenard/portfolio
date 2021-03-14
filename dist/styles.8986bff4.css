@@ -1,0 +1,27 @@
+.hiddenLocale {
+  display:none;
+}
+
+
+.french {
+  display: none;
+}
+
+body {
+  background-color: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.content {
+  margin: 0vw 5vw;
+}
+
+.gradient-mode {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
