@@ -1,5 +1,5 @@
 // Gradient mode
-
+/* eslint-disable */
 function myGradientFunction() {
   var element = document.body;
   var item = document.getElementById("gradient");
