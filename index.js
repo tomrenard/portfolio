@@ -86,39 +86,39 @@ linke.addEventListener("mouseout", (event) => {
   linke_d.classList.remove("skill-mode");
 });
 
-// SpeechRecognition
+// // SpeechRecognition
 
-window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+// window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
-  var recognition = new SpeechRecognition();
-  recognition.interimResults = true;
-  recognition.lang = 'en-US';
-  recognition.continuous = true;
+//   var recognition = new SpeechRecognition();
+//   recognition.interimResults = true;
+//   recognition.lang = 'en-US';
+//   recognition.continuous = true;
 
-  var footer = document.querySelector('.footer-opening');
-  var splash = document.querySelector('.splash');
+//   var footer = document.querySelector('.footer-opening');
+//   var splash = document.querySelector('.splash');
 
-  recognition.addEventListener('result', e => {
-    var transcript = Array.from(e.results)
-      .map(result => result[0])
-      .map(result => result.transcript)
-      .join('');
+//   recognition.addEventListener('result', e => {
+//     var transcript = Array.from(e.results)
+//       .map(result => result[0])
+//       .map(result => result.transcript)
+//       .join('');
 
-      if (transcript.includes('hi')) {
-        splash.classList.add("fade-in");
-        footer.classList.add("fade-in");
-        recognition.stop()
-      }
+//       if (transcript.includes('hi')) {
+//         splash.classList.add("fade-in");
+//         footer.classList.add("fade-in");
+//         recognition.stop()
+//       }
 
-  });
+//   });
 
-var skip_button = document.querySelector('.splash button');
+// var skip_button = document.querySelector('.splash button');
 
-function opacitation() {
-  var splash = document.querySelector('.splash');
-  var footer = document.querySelector('.footer-opening');
-  splash.classList.add("fade-in")
-  footer.classList.add("fade-in");
-}
+// function opacitation() {
+//   var splash = document.querySelector('.splash');
+//   var footer = document.querySelector('.footer-opening');
+//   splash.classList.add("fade-in")
+//   footer.classList.add("fade-in");
+// }
 
-recognition.start();
+// recognition.start();
