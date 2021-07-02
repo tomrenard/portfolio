@@ -35,4 +35,7 @@ body {
   .logo img {
     display: none !important;
   }
+  .logo i {
+    display: none !important;
+  }
 }
